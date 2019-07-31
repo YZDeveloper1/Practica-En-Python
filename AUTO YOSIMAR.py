@@ -1,6 +1,6 @@
 
 import time 
-class ferrari():    
+class Auto():    
     def __init__(self, velocidad = 0):
         self.velocidad = velocidad
         self.accion=9
@@ -27,7 +27,7 @@ class ferrari():
                         self.velocidad+=5   
                     print(f"Velocidad crucero :", self.velocidad)
 
-auto=ferrari()
+auto=Auto()
 auto.acelerar()
 
 
